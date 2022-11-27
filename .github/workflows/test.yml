@@ -13,9 +13,6 @@ jobs:
       run: |
         make install
         python -m textblob.download_corpora
-    - name: Lint with pylint
-      run: |
-        make lint
     - name: Test with pytest
       run: |
         make test
