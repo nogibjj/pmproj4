@@ -13,9 +13,6 @@ jobs:
       run: |
         make install
         python -m textblob.download_corpora
-    - name: Test with pytest
-      run: |
-        make test
     - name: Format code
       run: |
         make format
