@@ -6,3 +6,6 @@ fire==0.4.0
 fastapi==0.75.1
 uvicorn==0.17.6
 textblob==0.17.1
+flask
+flask-restful
+gunicorn
