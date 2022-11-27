@@ -13,9 +13,6 @@ jobs:
       run: |
         make install
         python -m textblob.download_corpora
-    - name: Format code
-      run: |
-        make format
     - name: Build Container
       run: |
         make build
